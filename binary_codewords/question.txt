@@ -1,0 +1,32 @@
+Given n, there are 2^n binary codewords of length n. All of them are taken and sorted to create a sequence: Sort by the number of 1-bits in the codeword bit-string. If there is a tie, break tie so that the smaller number comes first in the output sequence eg: n = 3 Sequence: {000, 001, 010, 100, 011, 101, 110, 111}
+
+Input format:
+
+n k
+
+[Input consists of two integers n and k]
+
+Output format:
+
+Please print the codeword with index k into this sequence.
+
+Constraints:
+
+1<=n<=10
+1<=k<=2^n
+
+Sample Input #00:
+
+3 5
+
+Sample Output #00:
+
+011
+
+Sample Input #01:
+
+7 127
+
+Sample Output #01:
+
+1111110
